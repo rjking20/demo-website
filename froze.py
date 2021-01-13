@@ -3,4 +3,4 @@ from main import app
 freeze = Freezer(app)
 
 if __name__ == '__main__':
-    freeze.run()
+    freeze.freeze()
